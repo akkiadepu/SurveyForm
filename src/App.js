@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
         <div className='title-part'>
-      <h1 id='title'>freeCodeCamp Survey Form</h1>
+      <h1 id='title'>Survey Form</h1>
     <p id='description'>Thank you for taking the time to help us improve the platform</p>
     </div>
       <form id='survey-form' onSubmit={onSubmitHandle}>
@@ -70,14 +70,14 @@ function App() {
       </div>
 
       <div className='form-group'>
-    <label>Would you recommend freeCodeCamp to a friend?</label><br/>
+    <label>Would you recommend us to a friend?</label><br/>
     <label ><input id="personal-account" type="radio" name="account-type" className="inline" value='Definitely' checked /> Definitely</label><br/>
     <label ><input id="personal-account" type="radio" name="account-type" className="inline" value='Maybe' /> Maybe</label><br/>
     <input id="personal-account" type="radio" name="account-type" className="inline" value='Not sure'/> Not sure<br/>
     </div>
 
     <div className='form-group'>
-<label>What is your favorite feature of freeCodeCamp?</label><br/>
+<label>What is your favorite feature?</label><br/>
   <select id='dropdown'><option>select an option</option>
       <option>Projects</option>
       <option>Challenges</option>
